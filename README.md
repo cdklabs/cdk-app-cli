@@ -24,7 +24,7 @@ Extra configuration options available via environment variables:
 ## 🚀 Getting Started
 
 Create a [CDK app](https://www.npmjs.com/package/aws-cdk) with a Lambda
-function, and deploy it to your account.
+function, and deploy it to your AWS account.
 
 ```ts
 const fn = new lambda.Function(this, 'MyLambda', {
@@ -45,7 +45,7 @@ Commands:
   audit-console
 ```
 
-Run a command to instantly access the L2 construct in the AWS console:
+Run a command to instantly access the construct in the AWS console:
 
 ```
 $ cdk-app MyLambda visit-console
@@ -62,9 +62,12 @@ $ cdk-app MyLambda describe
         ...
 ```
 
-Any extra arguments you pass will get automatically passed through to the underlying function.
+Any extra arguments you pass will get automatically passed through to the
+underlying command.
 
-You can create your own commands by defining a JSON or YAML file in your CDK app named `construct-commmands`. For example, here we define some commands that use the [awslogs](https://github.com/jorgebastida/awslogs) CLI:
+You can add your own commands by defining a JSON or YAML file in your CDK app
+named `construct-commmands`. For example, here we define some commands that use
+the [awslogs](https://github.com/jorgebastida/awslogs) CLI:
 
 ```yaml
 # construct-commands.yml
