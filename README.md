@@ -66,7 +66,7 @@ Any extra arguments you pass will get automatically passed through to the underl
 
 You can create your own commands by defining a JSON or YAML file in your CDK app named `construct-commmands`. For example, here we define some commands that use the [awslogs](https://github.com/jorgebastida/awslogs) CLI:
 
-```
+```yaml
 # construct-commands.yml
 aws-cdk-lib.aws_lambda.Function:
   logs:
