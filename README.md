@@ -2,24 +2,13 @@
 
 The operator CLI for CDK apps. Experimental.
 
-```
-cdk-app [construct] [subcommand]
+`cdk-app` lets you associate commands with CDK constructs so that you can quickly invoke functions, redrive queues, visit resources in the AWS console, and more by just referencing the construct name.
 
-Run an operator command on your CDK app's constructs.
+### Examples:
 
-Positionals:
-  construct                                                  [string] [required]
-  subcommand                                                            [string]
-
-Options:
-  --version  Show version number                                       [boolean]
-  --help     Show help                                                 [boolean]
-
-Extra configuration options available via environment variables:
-
-- CDK_APP_DIR - Path to cdk.out.
-- AWS_REGION - AWS region to run commands in.
-```
+* `cdk-app MyLambda tail-logs` - stream logs in real time from the Lambda's log group
+* `cdk-app TransactionTable visit-console` - open the AWS console page for your table
+* `cdk-app OrderQueue redrive-queue` - retry messages that failed to get processed
 
 ## 🚀 Getting Started
 
@@ -105,14 +94,37 @@ done
 
 ## 📖 Documentation
 
-### Command types
+### Command line options
+
+```
+cdk-app [construct] [subcommand]
+
+Run an operator command on your CDK app's constructs.
+
+Positionals:
+  construct                                                  [string] [required]
+  subcommand                                                            [string]
+
+Options:
+  --version  Show version number                                       [boolean]
+  --help     Show help                                                 [boolean]
+
+Extra configuration options available via environment variables:
+
+- CDK_APP_DIR - Path to cdk.out.
+- AWS_REGION - AWS region to run commands in.
+```
+
+### construct-commands.json
+
+#### Command types
 
 | Type | Description |
 | ----------- | ----------- |
 | open | Specify a URL or file to open. |
 | exec | Specify a command to run in your shell. |
 
-### Command substitutions
+#### Command substitutions
 
 | Syntax | Description |
 | ----------- | ----------- |
