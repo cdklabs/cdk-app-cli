@@ -1906,9 +1906,9 @@ duplexer3@^0.1.4:
   integrity sha512-1A8za6ws41LQgv9HrE/66jyC5yuSjQ3L/KOpFtoBilsAK2iA2wuS5rTt1OCzIvtS2V7nVmedsUU+DGRcjBmOYA==
 
 electron-to-chromium@^1.4.202:
-  version "1.4.209"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.209.tgz#18ec3a0773fb3e39fc0a5c9373b2e7c72df584af"
-  integrity sha512-SfWI9G/e3rxGIUalHbUCH9yEsTpO+72y+cD1Sw0tYtuTrdOPaFAgZKXM1crWVJwTNmj6KIPbbx0NIoV8a2cFJw==
+  version "1.4.210"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.210.tgz#12611fe874b833a3bf3671438b5893aba7858980"
+  integrity sha512-kSiX4tuyZijV7Cz0MWVmGT8K2siqaOA4Z66K5dCttPPRh0HicOcOAEj1KlC8O8J1aOS/1M8rGofOzksLKaHWcQ==
 
 emittery@^0.8.1:
   version "0.8.1"
@@ -5817,9 +5817,9 @@ yargs-parser@20.x, yargs-parser@^20.2.2, yargs-parser@^20.2.3:
   integrity sha512-y11nGElTIV+CT3Zv9t7VKl+Q3hTQoT9a1Qzezhhl6Rp21gJ/IVTW7Z3y9EWXhuUBC2Shnf+DX0antecpAwSP8w==
 
 yargs-parser@^21.0.0:
-  version "21.0.1"
-  resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-21.0.1.tgz#0267f286c877a4f0f728fceb6f8a3e4cb95c6e35"
-  integrity sha512-9BK1jFpLzJROCI5TzwZL/TU4gqjK5xiHV/RfWLOahrjAko/e4DJkRDZQXfvqAsiZzzYhgAzbgz6lg48jcm4GLg==
+  version "21.1.0"
+  resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-21.1.0.tgz#a11d06a3bf57f064e951aa3ef55fcf3a5705f876"
+  integrity sha512-xzm2t63xTV/f7+bGMSRzLhUNk1ajv/tDoaD5OeGyC3cFo2fl7My9Z4hS3q2VdQ7JaLvTxErO8Jp5pRIFGMD/zg==
 
 yargs@^16.0.0, yargs@^16.2.0:
   version "16.2.0"
