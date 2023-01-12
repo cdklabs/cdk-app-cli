@@ -1,3 +1,5 @@
+import templateFixture from "./fixtures/DemoAppStack.template.json";
+import treeFixture from "./fixtures/tree.json";
 import {
   createCfnTemplateResourceNameMatcher,
   createTreeJsonResourceNameMatcher,
@@ -5,8 +7,6 @@ import {
   matchesPath,
 } from "../src/matchers";
 import { tryFindByPredicate } from "../src/util";
-import templateFixture from "./fixtures/DemoAppStack.template.json";
-import treeFixture from "./fixtures/tree.json";
 
 test("matchesPath", () => {
   expect(matchesPath("MyQueue", "DemoAppStack")).toEqual(false);
