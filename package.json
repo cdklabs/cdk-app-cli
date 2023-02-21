@@ -60,7 +60,7 @@
   "dependencies": {
     "chalk": "^4",
     "fs-extra": "^10.1.0",
-    "open": "^8.4.1",
+    "open": "^8.4.2",
     "yaml": "^2.2.1",
     "yargs": "^17.7.0"
   },
