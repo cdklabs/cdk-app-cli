@@ -1,8 +1,9 @@
-import { typescript } from "projen";
+import { CdklabsTypeScriptProject } from "cdklabs-projen-project-types";
 
-const project = new typescript.TypeScriptProject({
+const project = new CdklabsTypeScriptProject({
   name: "cdk-app-cli",
   projenrcTs: true,
+  private: false,
   description: "The operator CLI for CDK applications.",
   repository: "https://github.com/cdklabs/cdk-app-cli",
   authorName: "Amazon Web Services",
@@ -13,19 +14,21 @@ const project = new typescript.TypeScriptProject({
   bin: {
     "cdk-app": "bin/cdk-app",
   },
-  deps: ["yargs", "fs-extra", "chalk@^4", "open", "yaml"],
-  devDeps: ["@types/fs-extra", "ts-node@^10.9.1"],
-
+  deps: [
+    "yargs",
+    "fs-extra",
+    "chalk@^4",
+    "open",
+    "yaml",
+    "cdklabs-projen-project-types",
+  ],
+  devDeps: [
+    "@types/fs-extra",
+    "ts-node@^10.9.1",
+    "cdklabs-projen-project-types",
+  ],
   prettier: true,
-
-  minNodeVersion: "14.17.0",
-
-  autoApproveOptions: {
-    allowedUsernames: ["cdklabs-automation"],
-    secret: "GITHUB_TOKEN",
-  },
-  autoApproveUpgrades: true,
-
+  minNodeVersion: "16.0.0",
   releaseToNpm: true,
 });
 
