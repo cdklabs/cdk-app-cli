@@ -1,6 +1,8 @@
-const { typescript } = require("projen");
+import { typescript } from "projen";
+
 const project = new typescript.TypeScriptProject({
   name: "cdk-app-cli",
+  projenrcTs: true,
   description: "The operator CLI for CDK applications.",
   repository: "https://github.com/cdklabs/cdk-app-cli",
   authorName: "Amazon Web Services",
@@ -12,7 +14,7 @@ const project = new typescript.TypeScriptProject({
     "cdk-app": "bin/cdk-app",
   },
   deps: ["yargs", "fs-extra", "chalk@^4", "open", "yaml"],
-  devDeps: ["@types/fs-extra"],
+  devDeps: ["@types/fs-extra", "ts-node@^10.9.1"],
 
   prettier: true,
 
