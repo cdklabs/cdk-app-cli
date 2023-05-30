@@ -4,6 +4,7 @@ const project = new CdklabsTypeScriptProject({
   name: "cdk-app-cli",
   projenrcTs: true,
   private: false,
+  enablePRAutoMerge: true,
   description: "The operator CLI for CDK applications.",
   repository: "https://github.com/cdklabs/cdk-app-cli",
   authorName: "Amazon Web Services",
@@ -28,7 +29,8 @@ const project = new CdklabsTypeScriptProject({
     "cdklabs-projen-project-types",
   ],
   prettier: true,
-  minNodeVersion: "16.0.0",
+  minNodeVersion: "16.13.0",
+  workflowNodeVersion: "16.x",
   releaseToNpm: true,
 });
 
