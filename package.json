@@ -41,7 +41,7 @@
     "@types/node": "^16",
     "@typescript-eslint/eslint-plugin": "^5",
     "@typescript-eslint/parser": "^5",
-    "cdklabs-projen-project-types": "^0.1.129",
+    "cdklabs-projen-project-types": "^0.1.130",
     "eslint": "^8",
     "eslint-config-prettier": "^8.8.0",
     "eslint-import-resolver-node": "^0.3.7",
@@ -59,7 +59,7 @@
     "typescript": "^4.9.5"
   },
   "dependencies": {
-    "cdklabs-projen-project-types": "^0.1.129",
+    "cdklabs-projen-project-types": "^0.1.130",
     "chalk": "^4",
     "fs-extra": "^10.1.0",
     "open": "^8.4.2",

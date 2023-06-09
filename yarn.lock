@@ -1559,10 +1559,10 @@ case@^1.6.3:
   resolved "https://registry.yarnpkg.com/case/-/case-1.6.3.tgz#0a4386e3e9825351ca2e6216c60467ff5f1ea1c9"
   integrity sha512-mzDSXIPaFwVDvZAHqZ9VlbyF4yyXRuX6IvB06WvPYkqJVO24kX1PPhv9bfpKNFZyxYFmmgo03HUiD8iklmJYRQ==
 
-cdklabs-projen-project-types@^0.1.129:
-  version "0.1.129"
-  resolved "https://registry.yarnpkg.com/cdklabs-projen-project-types/-/cdklabs-projen-project-types-0.1.129.tgz#f020a00a7f5b967a6fd2d881b9b1339280356283"
-  integrity sha512-RzeIrKcbiRbY9js91rR4nzgu7/eWfp/jKNqxb3gqDdoZ0n+5aYbbrcdJg3ww4Z/2hQf3pENL+1RyvDtI5YDWiA==
+cdklabs-projen-project-types@^0.1.130:
+  version "0.1.130"
+  resolved "https://registry.yarnpkg.com/cdklabs-projen-project-types/-/cdklabs-projen-project-types-0.1.130.tgz#4e78d76419b4beace647a4fccf385c10fd520526"
+  integrity sha512-kbjqc8omqWJ9+gbXJkq34hSKi7Bv+4tihomOa4uhHF4ZjtsSu/G8Y55sZsOTNNh2K3Z79b8f04sUskn4oDUUHw==
   dependencies:
     projen "^0.71.85"
     yaml "^2.3.1"
@@ -6279,6 +6279,7 @@ wordwrap@^1.0.0:
   integrity sha512-gvVzJFlPycKc5dZN4yPkP8w7Dc37BtP1yczEneOb4uq34pXZcvrtRTmWV8W+Ume+XCxKgbjM+nevkyFPMybd4Q==
 
 "wrap-ansi-cjs@npm:wrap-ansi@^7.0.0", wrap-ansi@^7.0.0:
+  name wrap-ansi-cjs
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/wrap-ansi/-/wrap-ansi-7.0.0.tgz#67e145cff510a6a6984bdf1152911d69d2eb9e43"
   integrity sha512-YVGIj2kamLSTxw6NsZjoBxfSwsn0ycdesmc4p+Q21c5zPuZ1pl+NfxVdxPtdHvmNVOQ6XSYG4AUtyt/Fi7D16Q==
