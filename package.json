@@ -52,7 +52,7 @@
     "jest-junit": "^15",
     "npm-check-updates": "^16",
     "prettier": "^2.8.8",
-    "projen": "^0.72.26",
+    "projen": "^0.72.28",
     "standard-version": "^9",
     "ts-jest": "^27.1.5",
     "ts-node": "^10.9.1",
@@ -63,7 +63,7 @@
     "chalk": "^4",
     "fs-extra": "^10.1.0",
     "open": "^8.4.2",
-    "yaml": "^2.3.1",
+    "yaml": "^2.3.2",
     "yargs": "^17.7.2"
   },
   "engines": {
