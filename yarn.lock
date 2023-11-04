@@ -1598,7 +1598,7 @@ case@^1.6.3:
   resolved "https://registry.yarnpkg.com/case/-/case-1.6.3.tgz#0a4386e3e9825351ca2e6216c60467ff5f1ea1c9"
   integrity sha512-mzDSXIPaFwVDvZAHqZ9VlbyF4yyXRuX6IvB06WvPYkqJVO24kX1PPhv9bfpKNFZyxYFmmgo03HUiD8iklmJYRQ==
 
-cdklabs-projen-project-types@^0.1.168:
+cdklabs-projen-project-types@^0.1.169:
   version "0.1.169"
   resolved "https://registry.yarnpkg.com/cdklabs-projen-project-types/-/cdklabs-projen-project-types-0.1.169.tgz#4e8670886a50c01089ce548483a225dc9ad1f803"
   integrity sha512-TGGjLyOzJ6Os47sf4JbFOruDPxAu/TSu6n0eO8HGX/NBcQGL5zP65D1uj/iCDx9hCoJYllAVOUdnCOot2yzkQw==
