@@ -1598,7 +1598,7 @@ case@^1.6.3:
   resolved "https://registry.yarnpkg.com/case/-/case-1.6.3.tgz#0a4386e3e9825351ca2e6216c60467ff5f1ea1c9"
   integrity sha512-mzDSXIPaFwVDvZAHqZ9VlbyF4yyXRuX6IvB06WvPYkqJVO24kX1PPhv9bfpKNFZyxYFmmgo03HUiD8iklmJYRQ==
 
-cdklabs-projen-project-types@^0.1.169:
+cdklabs-projen-project-types@^0.1.170:
   version "0.1.170"
   resolved "https://registry.yarnpkg.com/cdklabs-projen-project-types/-/cdklabs-projen-project-types-0.1.170.tgz#e8c501e23067295fe970a8b3028299a4410aadab"
   integrity sha512-zvlJQddo9SPhlW/RXNfsaoexNDjWrAZq7AHz9ADsSY8GnzxJX4TBMK6OSqZmGBql/4xo61Aowd9wikbbNZnveA==
@@ -2559,9 +2559,9 @@ fast-diff@^1.1.2:
   integrity sha512-VxPP4NqbUjj6MaAOafWeUn2cXWLcCtljklUtZf0Ind4XQ+QPtmA0b18zZy0jIQx+ExRVCR/ZQpBmik5lXshNsw==
 
 fast-glob@^3.2.9:
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/fast-glob/-/fast-glob-3.3.1.tgz#784b4e897340f3dbbef17413b3f11acf03c874c4"
-  integrity sha512-kNFPyjhh5cKjrUltxs+wFx+ZkbRaxxmZ+X0ZU31SOsxCEtP9VPgtq2teZw1DebupL5GmDaNQ6yKMMVcM41iqDg==
+  version "3.3.2"
+  resolved "https://registry.yarnpkg.com/fast-glob/-/fast-glob-3.3.2.tgz#a904501e57cfdd2ffcded45e99a54fef55e46129"
+  integrity sha512-oX2ruAFQwf/Orj8m737Y5adxDQO0LAB7/S5MnxCdTNDd4p6BsyIVsv9JQsATbTSq8KHRpLwIHbVlUNatxd+1Ow==
   dependencies:
     "@nodelib/fs.stat" "^2.0.2"
     "@nodelib/fs.walk" "^1.2.3"
@@ -5045,7 +5045,27 @@ progress@^2.0.3:
   resolved "https://registry.yarnpkg.com/progress/-/progress-2.0.3.tgz#7e8cf8d8f5b8f239c1bc68beb4eb78567d572ef8"
   integrity sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==
 
-projen@^0.76.19, projen@^0.76.20:
+projen@^0.76.19:
+  version "0.76.23"
+  resolved "https://registry.yarnpkg.com/projen/-/projen-0.76.23.tgz#8aaafe8017dc060958c9f8628983ce51ca2dbb73"
+  integrity sha512-Svtho6I8YBR5P03VFnkNUGPk9SA8A9mKI3osInzav6SfeeKh7kcI/9XNyUda3DTmxUfsLMZrVwLszJd0EvWJZQ==
+  dependencies:
+    "@iarna/toml" "^2.2.5"
+    case "^1.6.3"
+    chalk "^4.1.2"
+    comment-json "4.2.2"
+    constructs "^10.0.0"
+    conventional-changelog-config-spec "^2.1.0"
+    fast-json-patch "^3.1.1"
+    glob "^8"
+    ini "^2.0.0"
+    semver "^7.5.4"
+    shx "^0.3.4"
+    xmlbuilder2 "^3.1.1"
+    yaml "^2.2.2"
+    yargs "^17.7.2"
+
+projen@^0.76.20:
   version "0.76.20"
   resolved "https://registry.yarnpkg.com/projen/-/projen-0.76.20.tgz#f6abaada4cb0b7846c5a304e099c185dcbb70830"
   integrity sha512-mdDeLrTa8shJFh5J7WEjTwrQxmsORgRuvNzCUkUR/exMc3WSIS+kuwdAHzuX5l9y+tZdA/kauX6EpzjfaCY+FA==
