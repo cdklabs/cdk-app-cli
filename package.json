@@ -42,7 +42,7 @@
     "@types/node": "^16",
     "@typescript-eslint/eslint-plugin": "^6",
     "@typescript-eslint/parser": "^6",
-    "cdklabs-projen-project-types": "^0.1.183",
+    "cdklabs-projen-project-types": "^0.1.184",
     "constructs": "^10.0.0",
     "eslint": "^8",
     "eslint-config-prettier": "^8.10.0",
@@ -52,7 +52,7 @@
     "jest": "^27.5.1",
     "jest-junit": "^15",
     "prettier": "^2.8.8",
-    "projen": "^0.77.6",
+    "projen": "^0.78.13",
     "standard-version": "^9",
     "ts-jest": "^27.1.5",
     "ts-node": "^10.9.2",
@@ -105,11 +105,13 @@
         }
       ]
     ],
-    "preset": "ts-jest",
-    "globals": {
-      "ts-jest": {
-        "tsconfig": "tsconfig.dev.json"
-      }
+    "transform": {
+      "^.+\\.[t]sx?$": [
+        "ts-jest",
+        {
+          "tsconfig": "tsconfig.dev.json"
+        }
+      ]
     }
   },
   "types": "lib/index.d.ts",
