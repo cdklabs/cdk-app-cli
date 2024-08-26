@@ -29,8 +29,8 @@ const project = new CdklabsTypeScriptProject({
     "cdklabs-projen-project-types",
   ],
   prettier: true,
-  minNodeVersion: "16.13.0",
-  workflowNodeVersion: "16.x",
+  minNodeVersion: "20.0.0",
+  workflowNodeVersion: "20.x",
   releaseToNpm: true,
 });
 
