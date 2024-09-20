@@ -229,13 +229,13 @@
       },
       "steps": [
         {
-          "exec": "npx npm-check-updates@16 --upgrade --target=minor --peer --dep=prod --filter=cdklabs-projen-project-types,fs-extra,open,yaml,yargs"
+          "exec": "npx npm-check-updates@16 --upgrade --target=minor --peer --dep=prod --filter=fs-extra,open,yaml,yargs"
         },
         {
           "exec": "yarn install --check-files"
         },
         {
-          "exec": "yarn upgrade cdklabs-projen-project-types chalk fs-extra open yaml yargs"
+          "exec": "yarn upgrade chalk fs-extra open yaml yargs"
         },
         {
           "exec": "npx projen"
@@ -277,13 +277,13 @@
       },
       "steps": [
         {
-          "exec": "npx npm-check-updates@16 --upgrade --target=minor --peer --dep=dev --filter=@types/fs-extra,@types/jest,cdklabs-projen-project-types,eslint-config-prettier,eslint-import-resolver-typescript,eslint-plugin-import,eslint-plugin-prettier,jest,prettier,projen,ts-jest,ts-node,typescript"
+          "exec": "npx npm-check-updates@16 --upgrade --target=minor --peer --dep=dev --filter=@types/fs-extra,@types/jest,eslint-config-prettier,eslint-import-resolver-typescript,eslint-plugin-import,eslint-plugin-prettier,jest,prettier,ts-jest,ts-node,typescript"
         },
         {
           "exec": "yarn install --check-files"
         },
         {
-          "exec": "yarn upgrade @types/fs-extra @types/jest @types/node @typescript-eslint/eslint-plugin @typescript-eslint/parser cdklabs-projen-project-types commit-and-tag-version constructs eslint-config-prettier eslint-import-resolver-typescript eslint-plugin-import eslint-plugin-prettier eslint jest jest-junit prettier projen ts-jest ts-node typescript"
+          "exec": "yarn upgrade @types/fs-extra @types/jest @types/node @typescript-eslint/eslint-plugin @typescript-eslint/parser commit-and-tag-version constructs eslint-config-prettier eslint-import-resolver-typescript eslint-plugin-import eslint-plugin-prettier eslint jest jest-junit prettier ts-jest ts-node typescript"
         },
         {
           "exec": "npx projen"

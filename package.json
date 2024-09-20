@@ -59,7 +59,7 @@
     "typescript": "^4.9.5"
   },
   "dependencies": {
-    "cdklabs-projen-project-types": "^0.1.202",
+    "cdklabs-projen-project-types": "^0.1.204",
     "chalk": "^4",
     "fs-extra": "^10.1.0",
     "open": "^8.4.2",
