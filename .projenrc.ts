@@ -30,7 +30,6 @@ const project = new CdklabsTypeScriptProject({
   ],
   prettier: true,
   minNodeVersion: "20.0.0",
-  workflowNodeVersion: "20.x",
   releaseToNpm: true,
 });
 
